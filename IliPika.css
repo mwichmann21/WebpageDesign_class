@@ -1,0 +1,106 @@
+/*
+* Mia Wichmann
+* 11 December 2017
+* Endangered Species: Ili Pika
+*/
+
+
+/* The universal selector */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Put body attributes here */
+
+body { 
+	font-family: Arial, "Times New Roman", Sans;
+	color: black;
+	background-color: #FDEBD0;
+	width: 950px;
+	margin: auto;
+}
+
+header { 
+	font-style: bold;
+	text-align: center;
+	color: #C8622B;
+	
+	width: 920px;
+	height: auto;
+	padding: 25px 5px 0px;
+	border-bottom: solid;
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 24pt;	
+}
+
+h2 {
+	font-size: 18pt;
+	color: navy;
+	padding: 0px 10px;
+}
+
+img{
+	height: 175px;
+	width: auto;
+	padding: 10px 5px;
+	float: left;
+}
+
+#top { height: 175px;
+	width: 175px;
+	padding: 10px;
+	background-color: white;
+	border: 2px dashed black;
+	margin: 0px 10px 0px 5px;
+	float: left;
+}
+
+#map {
+	float: right;
+	width: 300px;
+	padding: 10px;
+	background-color: white;
+	border: 2px solid green;
+	margin: 5px 15px;
+}
+
+p {
+	width: 920px;
+	height: auto;
+	text-align: justify;
+	padding: 0px 10px 0px;
+	font-size: 12pt;
+}
+
+footer {
+	width: 940px;
+	padding: 10px 0px;
+	border-top: solid;
+	margin-top: 10px;
+	color: #C8622B;
+}
+ 
+ul {
+	font-size: 10pt;
+	height: auto;
+	Width: auto; 
+	padding: 0px 50px;
+	color: black;
+}
+
+a:link, a:visited {
+	color: #C8622B;
+	text-decoration: underline; 
+}
+
+a:hover, a:focus {
+	color: navy;
+	text-decoration: underline;
+	font-size: 14pt;
+}
+
