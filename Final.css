@@ -1,0 +1,81 @@
+/* Mia Wichmann */
+/* Final CSS on Elena Lucrezia Cornaro Piscopia*/
+/* 1/11/18 */
+
+* { 
+    margin: 0;
+    padding: 0; }
+
+header { 
+	/*Red Border*/
+    border-bottom: 2px solid #C0392B;
+    text-align: center; }
+
+body {
+    width: 95%;
+    background-color: #F3F4FE;
+    margin: 15px auto;
+   }
+/*left column*/
+#sidebarA {
+    width: 15%;    
+    float: left;
+    padding: 5px;
+    text-align: center; 
+    /*Red border*/ 
+	border-left: 2px solid #C0392B; 
+	border-right: 2px solid #C0392B;
+	/*Fixed height*/
+	height: 550px;}
+	
+/*center column*/	
+main {
+    width: 65%;
+    padding: 5px;
+    text-align: justify;  
+    /*Fixed height*/
+    height: 550px;
+    float:left;
+    }
+/*right column*/
+#sidebarB {
+    width: 15%;
+    padding: 5px;     
+    float: right;
+    text-align: center;
+    /*Red border*/ 
+    border-left: 2px solid #C0392B;
+    border-right: 2px solid #C0392B;
+    /*Fixed height*/
+    height: 550px; }
+
+footer {
+    clear: both; 
+    /*Red border*/ 
+    border-top: 2px solid #C0392B; }
+
+/*only on disclaimer*/    
+#disclaimer {
+text-align: right; }
+
+a:visited, a:link {
+	/*Blue*/
+	color: #0708DB; }
+	
+a:hover, a:focus {
+	/*Navy*/
+	color: #1A0F63; 
+	font-size: 14pt;}
+	
+img {
+height: 200px;
+width: auto;
+/*navy*/
+border: 2px solid #0708DB;
+margin: 2px; }
+/*First image*/
+#first { 
+float: right;}
+/*Second Image*/
+#second {
+float: left; }
